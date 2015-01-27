@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "debian-server": "bin/debian-server"
+    "debian-server": "bin/debian-server.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "lodash": "^3.0.0",
     "pm2": "^0.12.3",
     "radic": "^0.5.6",
+    "rimraf": "^2.2.8",
     "tmp": "0.0.24"
   }
 }
