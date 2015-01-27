@@ -4,7 +4,7 @@
   "description": "Debian CI server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha -- -R spec"
   },
   "bin": {
     "debian-server": "bin/debian-server.js"
@@ -30,6 +30,11 @@
     "tmp": "0.0.24"
   },
   "devDependencies": {
+      "chai": "^1.10.0",
+      "mocha": "^2.1.0",
+      "sinon": "^1.12.2",
+      "istanbul": "^0.3.5",
+      "jsdoc": "~3.3.0-alpha5",
     "grunt": "^0.4.5",
     "grunt-radical": "0.0.13",
     "load-grunt-tasks": "^3.0.0",
