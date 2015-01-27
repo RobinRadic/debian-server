@@ -44,5 +44,8 @@ module.exports = function(grunt){
 
     });
 
+
+    grunt.registerTask('docs', ['radic_jsdoc:docs', 'radic_jsdoc_mdpages:docs',  'git:docs']);
+
     grunt.registerTask('default', []);
 };
