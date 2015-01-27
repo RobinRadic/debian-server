@@ -1,0 +1,31 @@
+{
+  "name": "debian-server",
+  "version": "1.0.0",
+  "description": "Debian CI server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "debian-server": "bin/debian-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinradic/debian-server"
+  },
+  "author": "Robin Radic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinradic/debian-server/issues"
+  },
+  "homepage": "https://github.com/robinradic/debian-server",
+  "dependencies": {
+    "async": "^0.9.0",
+    "eventemitter2": "^0.4.14",
+    "fs-extra": "^0.15.0",
+    "lodash": "^3.0.0",
+    "pm2": "^0.12.3",
+    "radic": "^0.5.6",
+    "tmp": "0.0.24"
+  }
+}

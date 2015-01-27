@@ -1,0 +1,12 @@
+/node_modules
+/bower_components
+/composer
+/vendor
+/.idea/
+/src/styles2
+/preview
+/.yo-rc.json
+/preview
+/.sass-cache
+/npm-debug.log
+/docs
